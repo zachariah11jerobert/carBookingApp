@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace carBookingApp.Data
 {
-    public class CarBookAppDbContext : DbContext
+    public class CarBookingAppDbContext : DbContext
     {
         DbSet<Car> cars { get; set; }
     }
